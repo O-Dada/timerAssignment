@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/i-Academy-logo-website.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>iAAS | Assessment</title>
+  </link>
+  <body>
+    <nav>
+      <p>Frontend Developer Assessment</p>
+    </nav>
+    <main>
+      <div id="container">
+        <p class="timer">00:00</p>
+        <div class="guage">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="user-number">
+          <p class="username" id="username">Olanrewaju Dada</p>
+        <p id="question-num">Question <span id="question-id">1</span> of 10</p>
+        </div>
+              
+        <div class="question-body">
+          <div class="question-para">
+            <p id="questions">
+              Cube is related to Square in the same way as square is related to
+            </p>
+          </div>
+          <div class="choices">
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="a" class="answer" />
+                <label for="a" id="a_text">Choice A</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="b" class="answer" />
+                <label for="b" id="b_text">Choice B</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="c" class="answer" />
+                <label for="c" id="c_text">Choice C</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="d" class="answer" />
+                <label for="d" id="d_text">Choice D</label>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <button id="next-btn">Next</button>
+    </div>
+
+
+<!-- CONGRATS SECTION -->
+      <div id="congrats">
+        <div class="cong">
+          <h1>Congratulations!</h1>
+          <p>You scored:</p>
+          <span id="scorer"> 50</span>
+          <button class="down-btn" id="scores">Download Scores</button>
+        </div>
+        </div>
+
+       
+<!-- TIME UP SECTION -->
+      <div id="timeUp">
+        <div id="timeContents">
+          <h2>Time Up!</h2>
+          <p>You scored:</p>
+          <span id="scorerr"> 50</span> 
+          <div>
+            <button class="no-time">Download Scores</button>
+          </div>
+        </div>
+                
+      <script src="main.js"></script>
+  </body>
+    
+   
+</html>
